@@ -1,0 +1,7 @@
+streamlit
+geopandas
+shapely
+pydeck
+plotly
+chromadb
+requests
