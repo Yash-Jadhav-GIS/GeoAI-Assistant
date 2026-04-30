@@ -18,7 +18,7 @@ AI-powered system to **query geospatial data (GeoJSON, SHP, KML)** using natural
 
 | Map View                                         | Query Execution                                  | EDA Dashboard                                    |
 | ------------------------------------------------ | ------------------------------------------------ | ------------------------------------------------ |
-| ![](Assist/Screenshot%202026-04-30%20114932.png) | ![](Assist/Screenshot%202026-04-30%20115010.png) | ![](Assist/Screenshot%202026-04-30%20115125.png) |
+|  ![](Assist/Screenshot%202026-04-30%20115125.png)| ![](Assist/Screenshot%202026-04-30%20115010.png) |![](Assist/Screenshot%202026-04-30%20114932.png)  |
 
 ---
 
