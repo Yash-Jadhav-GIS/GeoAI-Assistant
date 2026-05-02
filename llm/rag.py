@@ -3,9 +3,8 @@ from chromadb.utils import embedding_functions
 
 client = chromadb.Client()
 
-embed = embedding_functions.OllamaEmbeddingFunction(
-    model_name="nomic-embed-text"
-)
+# Using default embedding - no Ollama needed, works on Streamlit Cloud
+embed = embedding_functions.DefaultEmbeddingFunction()
 
 collection = client.get_or_create_collection(
     name="geo_schema",
