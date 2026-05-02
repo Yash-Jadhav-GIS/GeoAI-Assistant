@@ -3,5 +3,5 @@ geopandas
 shapely
 pydeck
 plotly
-chromadb
+chromadb==0.5.23
 requests
