@@ -1,8 +1,13 @@
-import requests
+import os
+from groq import Groq
 
-def generate(prompt, model="llama3.1:8b"):
-    res = requests.post(
-        "http://localhost:11434/api/generate",
-        json={"model": model, "prompt": prompt, "stream": False}
+client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
+
+def generate(prompt, model="llama-3.1-8b-instant"):
+    response = client.chat.completions.create(
+        model=model,
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
     )
-    return res.json()["response"]
+    return response.choices[0].message.content
